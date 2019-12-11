@@ -1,0 +1,119 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+a:hover::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  bottom: 0;
+  border-bottom: 1px solid;
+}
+
+body {
+  margin: 0;
+}
+
+.image {
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+}
+.search {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  list-style-type: none;
+  bottom: 0;
+  width: 100%;
+  height: 3%;
+  background-color: #d3d3d3;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  margin-top: 1%;
+  text-align: center;
+}
+
+.search { position: relative; }
+.search input {
+  width: 250px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+}
+.search .fa-search {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+#googleSearch, #feelingLucky {
+  padding: 10px 10px;
+  color: #9c9c9c;
+}
+
+#ad, #busi, #hsw {
+  bottom: 0;
+  margin: 15px 5px 5px 5px;
+  padding: 55px 5px 5px 5px;
+}
+
+#googleImg {
+  margin-top: 150px;
+  width: 25%;
+  height: 25%;
+  display: inline-block;
+}
+
+#searchBar {
+  display: inline-block;
+  width: 17.5%;
+  border: 1px solid;
+  border-radius: 20px;
+  border-color: #d3d3d3;
+  padding: 15px 5px 5px 25px;
+  top: 0;
+  left: 0;
+  margin-top: 1.5%;
+}
+
+#Gmail {
+  float: right;
+    margin: 10px 10px 10px 10px;
+}
+
+#Images {
+  float: right;
+    margin: 10px 10px 10px 10px;
+}
+
+#Apps {
+  float: right;
+    margin: 10px 10px 10px 10px;
+}
+
+#SignIn {
+  float: right;
+  margin: 10px 10px 10px 10px;
+}
+
+#About {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+#Store {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
